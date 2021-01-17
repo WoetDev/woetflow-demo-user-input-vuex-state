@@ -9,12 +9,9 @@ export default new Vuex.Store({
       example: "Change my value to see the state update!"
     }
   },
-  getters: {},
   mutations: {
     setValues(state, values) {
       state.values = Object.assign({}, state.values, values);
     }
-  },
-  actions: {},
-  modules: {}
+  }
 });

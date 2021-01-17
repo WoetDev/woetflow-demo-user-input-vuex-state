@@ -4,11 +4,7 @@
       header="This input uses v-model with computed setters to manage its state in the Vuex store"
     >
       <t-input-group>
-        <t-input
-          value="Change my value to see the state update!"
-          name="example"
-          v-model="example"
-        />
+        <t-input name="example" v-model="example" />
       </t-input-group>
       <PrintStateSetters />
     </t-card>
