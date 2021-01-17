@@ -1,23 +1,34 @@
 # user-input-vuex-state-demo
 
+## Blog post
+This repository is the demo code used in [this blog post on Woet Flow](https://woetflow.com/posts/using-v-model-to-bind-user-input-to-state-in-the-vuex-store)
+
+## Project init features
+* **Babel**
+* **Router:** Hash mode
+* **Vuex**
+* **CSS pre-processor:** Sass/SCSS
+* **Linter / Formatter:** ESLint + Prettier
+* **Config for Babel, PostCSS, ESLint, etc.:** in dedicated config files
+
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
 
 ### Customize configuration
